@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifra de César</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+        <h1>Codifique ou Decodifique:</h1>
+        
+    <div class="container">
+        <textarea id="conteudo" type="text"></textarea>
+
+        <select name="" id="">
+            <option value="1" id="cifraCesar">Cifra de César</option>
+            <option value="2" id="base64">Base 64</option>
+        </select>
+
+        <label for="" id="incr">Incrementador</label>
+        <input type="number" name="" id="modificador">
+        
+        <form>
+        <input type="radio" id="cod" name="seletor" onclick="display(), b()">
+        <label for="cd">Codificar</label>
+        <input type="radio" id="dec" name="seletor" onclick="display(), b()">
+        <label for="dc">Decodificar</label>
+        </form>
+
+        <div id="botao">
+            <button id="codif" onclick="codificar()">Codificar</button>
+        </div>
+
+        <div id="resultado">
+            <input type="text" name="" id="conteudo2">
+        </div>
+    </div>
+    <script src="arquivo.js"></script>
+</body>
+</html>
